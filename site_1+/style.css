@@ -151,7 +151,43 @@ nav {
     display: block;
 }
 
+.bebe-ruivo-container {
+   display: flex;
+    justify-content: space-between; /* imagem à esquerda, texto à direita */
+    align-items: center;
+    padding: 0 200px; /* espaço de 80px nas laterais esquerda e direita */
+    margin-top: 100px;
+}
+
 .bebe-ruivo {
     width: 300px; /* ajuste conforme necessário */
     height: auto;
+}
+
+.texto-bebe-ruivo {
+    max-width: 400px; /* limite de largura, para o texto não espalhar muito */
+    font-family: system-ui, sans-serif;
+    color: #000000;
+    text-align: justify; /* deixa o texto "retinho" nas laterais */
+}
+
+.texto-bebe-ruivo h2 {
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+.unkempt-bold {
+  font-family: "Unkempt", cursive;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 3em; /* TÍTULO BEM MAIOR */
+  margin-bottom: 16px; /* Espaçamento abaixo do título */
+}
+
+.icone-titulo {
+    width: 80px;       /* tamanho do ícone */
+    height: auto;      /* mantém proporção */
+    margin-left: 10px; /* espaço entre o texto e o ícone */
+    vertical-align: middle; /* alinha verticalmente com o texto */
+    transform: rotate(40deg);
 }
